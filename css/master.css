@@ -1,0 +1,89 @@
+/*Page Attributes */
+body {
+  background-color: #FFCC91;
+  font-family: "https://fonts.googleapis.com/css?family=Open=Sans";
+  padding-top: 20px;
+}
+h1 {
+  background-color: #FF9200;
+  font-size: 150%;
+  }
+h2 {
+  background-color: #FF9200;
+  font-weight: bold;
+  letter-spacing: .5em;
+  text-align: center;}
+h3 {
+  background-color: #FF9200;
+  font-weight: bold;
+  letter-spacing: .1em;
+  }
+h4 {
+  background-color: yellow;
+  font-weight: bold;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-size: 150%;
+  text-align: center;
+}
+p.blocktext {
+  border-radius: 10px;
+  background-color: #FE2217;
+  font-weight: bold;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  font-size: 150%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 75%;
+}
+li {
+  font-style: italic;
+line-height: 1.5em;
+}
+a[href^="#"]{
+    color: black;
+  }
+h1:link {
+  color: black;
+  text-decoration: none;
+}
+p {
+  line-height: 1.5em;
+}
+img {
+  width: 320px;
+  height: 240px;
+  border-radius: 10%
+}
+figcaption {
+  font-weight: bold;
+}
+.about{
+  font-style: italic;
+}
+thead {
+  font-weight: bold;
+  width: 200px;
+  text-align: center;
+}
+tbody {
+  font-weight:normal;
+  width: relative;
+  text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+}
+/*Allows images to go across the screen*/
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
