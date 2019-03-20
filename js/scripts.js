@@ -19,7 +19,7 @@ function myFunction() {
       crustPicked = crust[Math.floor(Math.random() * crust.length)];
   var sauce = ["Marinara","Alfredo","Garlic"],
       saucePicked = sauce[Math.floor(Math.random() * sauce.length)];
-  var meat =["Sausage","Ham","Pepperoni","Bacon","Canadian Bacon"],
+  var meat =["Sausage","Ham","Pepperoni","Bacon","Meatless"],
       meatPicked = meat[Math.floor(Math.random() * meat.length)];
   var veggie = ["Mushrooms","Black Olives","Onions","Green Peppers","Tomoatoes"],
       veggiePicked = veggie[Math.floor(Math.random() * veggie.length)];
